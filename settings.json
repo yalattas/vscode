@@ -1,0 +1,172 @@
+{
+    "editor.largeFileOptimizations": false,
+    "git.ignoreMissingGitWarning": true,
+    "json.maxItemsComputed": 50000,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "better-comments.highlightPlainText": true,
+    "editor.lineNumbers": "relative",
+    "settingsSync.ignoredSettings": [
+
+    ],
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "yaml.schemas": {
+        "file:///c%3A/Users/yalat/AppData/Roaming/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/sam.schema.json": [
+            "template.yaml"
+        ]
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+    "workbench.colorCustomizations": {
+        // Added by Yaser
+        "terminal.foreground":"#A5A2A2",
+        "terminalCursor.background":"#000000",
+        "terminalCursor.foreground":"#A5A2A2",
+        "terminal.ansiBlack":"#090300",
+        "terminal.ansiBlue":"#FFFFFF",
+        "terminal.ansiBrightBlack":"#CC3363",
+        "terminal.ansiBrightBlue":"#FFFFFF",
+        "terminal.ansiBrightCyan":"#B5E4F4",
+        "terminal.ansiBrightGreen":"#76d483",
+        "terminal.ansiBrightMagenta":"#A16A94",
+        "terminal.ansiBrightRed":"#DB2D20",
+        "terminal.ansiBrightWhite":"#F7F7F7",
+        "terminal.ansiBrightYellow":"#FDED02",
+        "terminal.ansiCyan":"#B5E4F4",
+        "terminal.ansiGreen":"#066C13",
+        "terminal.ansiMagenta":"#A16A94",
+        "terminal.ansiRed":"#DB2D20",
+        "terminal.ansiWhite":"#A5A2A2",
+        "terminal.ansiYellow":"#FDED02" 
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "json.schemas": [],
+    "vim.smartRelativeLine": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "v"],
+            "commands": ["workbench.action.splitEditor"]
+        },
+        {
+            "before": ["<leader>", "h"],
+            "commands": ["workbench.action.splitEditorDown"]
+        }
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "java.jdt.ls.java.home": "c:\\Program Files\\Java\\jdk-18.0.1.1",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        },
+        "Debian (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Debian"
+            ]
+        },
+        "Ubuntu-20.04 (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu-20.04"
+            ]
+        }
+    },
+    // A set of command IDs whose keybindings will not be sent to the shell and instead always be handled by Code. This allows the use of keybindings that would normally be consumed by the shell to act the same as when the terminal is not focused, for example Ctrl + P to launch Quick Open.
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.terminal.copySelection",
+        "workbench.action.terminal.paste",
+    ],
+    "git.confirmSync": false,
+    "database-client.highlightSQLBlock": true,
+    "database-client.showUser": true,
+    "[python]": {
+        "editor.defaultFormatter": "giyyapan.pyformat"
+    },
+    "editor.suggest.showMethods": true,
+    "editor.suggest.preview": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "top",
+    "git.autofetch": true,
+    "aws.profile": "profile:default",
+}
